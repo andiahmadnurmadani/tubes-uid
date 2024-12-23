@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="Informasi Tugas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+
+    <div class="header">
+        <i class='bx bx-menu'></i>
+        <div class="header-logo"><img src="logo.jpeg" alt=""></div>
+  
+        <div class="navbar">
+          <ul>
+            <li class="animasi">
+              <a href="Dashboard.html"><strong>Dashboard</strong></a>
+            </li>
+            <li class="animasi">
+              <a href="Mycourse.html"><strong>My Course</strong></a>
+            </li>
+            <li class="animasi">
+              <a href="../Register Login About Us/AboutUs.html"><strong>About Us</strong></a>
+            </li>
+            <li class="animasi">
+              <a href="../Forum Diskusi/forumDiskusi.html"><strong>Discussion</strong></a>
+            </li>
+            <li class="animasi">
+              <a href="../Hitung IP/hitungIp.html"><strong>Calculate IP</strong></a>
+            </li>
+            <li class="animasi">
+              <a href="#"><strong>Information</strong></a>
+            </li>
+          </ul>
+        </div>
+        <a href="#" id="login">
+          <img id="login" class="login"  src="user-account.png" alt="">
+        </a>
+        <div id="profil" class="hide-profil">
+          <a href="../Register Login About Us/RevLogin.html"><b>Log Out</b></a>
+
+        </div>
+      </div>
+      <div class="hide-hamburger" id="hamburger">
+        <div class="menu">
+          <a href="#"><img  src="user-account.png" alt=""></a>
+          <a href="Dashboard.html"><b>Dashboard</b></a>
+          <a href="Mycourse.html"><b>My Course</b></a>
+          <a href="../Register Login About Us/AboutUs.html"><b>About Us</b></a>
+          <a href="../Forum Diskusi/forumDiskusi.html"><b>Discussion</b></a>
+          <a href="..//Hitung IP/hitungIp.html"><b>Calculate IP</b></a>
+          <a href="../Dashboard My Course Information/Informasi Tugas.html"><b>Information</b></a>
+          
+        </div>
+      </div>
+
+    <!-- Form untuk memasukkan data tugas -->
+    <h1 class="judul">INFORMASI TUGAS</h1>
+    <div class="form-container">
+    <form id="taskForm" class="label">
+        <input type="text" id="namaTugas" required placeholder="Nama Tugas" class="inputcuy">
+        <input type="text" id="mataKuliah" required placeholder="Mata Kuliah" class="inputcuy">
+        <input type="date" id="tanggal" required placeholder="Tanggal" class="inputcuy" style="padding: 10px;">
+        <button type="submit" class="inputoy"><i class='bx bx-task'></i></button>
+    </form>
+</div>
+
+<div class="oyy">
+    <table id="taskTable" id="data-table">
+        <thead class="thead">
+            <tr>
+                <th class="yugas">Nama Tugas</th>
+                <th class="matkul">Mata Kuliah</th>
+                <th style="color: white;">Tanggal Pengumpulan</th>
+                <th class="aksi">Aksi</th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+            <!-- Data tugas akan ditampilkan di sini -->
+        </tbody>
+    </table>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="colom colom1">
+                <img src="logo.jpeg" class="logo">
+                <h2 style="font-size: 40px;">Learning.com </h2>
+                <br>
+                
+            </div>
+            <div class="colom">
+                <h2>Location<div class="underline"><span></span></div></h2>
+                <p>Telkom University</p>
+                <p>Jl. Telekomunikasi No. 1,</p>
+                <p>Terusan Buah Batu</p>
+                <p>Bandung 40257,</p>
+                <p>Jawa Barat, Indonesia</p>
+            </div>
+            <div class="colom links">
+                <h2>Links<div class="underline"><span></span></div></h2>
+                <ul>
+                    <li><a href="">Dashboard</a></li>
+                    <li><a href="">My Course</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </div>
+            <div class="colom img whatsapp">
+                <h2>Information<div class="underline"><span></span></div></h2>
+                
+                <a href="https://wa.me/089601730506">
+                <form class="form1">
+                  <b>Contact Us</b> <i class='bx bxl-whatsapp' style="font-size: 23px; color: green;"></i>
+                </form>
+              </a>
+      
+            
+            <div class="social-media">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+        </div>
+        <hr>
+        <p class="copyright">&copy;ASC 2024. Reserved</p>
+      </footer>
+      <script src="../Mata Kuliah/Alpro/main.js"></script>
+    <script src="Informasi Tugas.js"></script>
+</body>
+</html>
